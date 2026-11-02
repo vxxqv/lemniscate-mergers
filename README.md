@@ -61,8 +61,11 @@ distributed separately.
 
 ## Citation and archive status
 
-Creator metadata is supplied in `CITATION.cff` and `.zenodo.json`. The Zenodo DOI
-will be added only after the archival record exists and has been verified.
+Version 0.1.0 is archived at Zenodo: https://doi.org/10.5281/zenodo.23889014.
+The matching GitHub release is https://github.com/vxxqv/lemniscate-mergers/releases/tag/v0.1.0.
+Creator metadata is supplied in `CITATION.cff` and `.zenodo.json`. The archived
+ZIP preserves the files as deposited; this README and citation metadata on the
+main branch were updated after the DOI was registered.
 
 ## AI assistance and review
 

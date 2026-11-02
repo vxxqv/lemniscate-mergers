@@ -1,8 +1,8 @@
 {
   ".gitignore": "7dce7f6f195e8df74c2584395a81b550d703668bab574b90620c19fb63f8d0bf",
   ".zenodo.json": "c606928196bfab85f906ab52516aab8cf1e9a97dc14b7d408786b561c5208a85",
-  "CITATION.cff": "1d7516e1b0ad58c8830571c8efbbfd8a3ce81c6800e9e0e40dd4db5158c7beef",
-  "README.md": "549a06e334b354810449e75801f4cf6e260de91bf0ad68b58df81050414b5cfe",
+  "CITATION.cff": "ab40fa6d71e5ee4d86a9e6a15fecd04982b88320eaedac0fdb11dc6c1a675da8",
+  "README.md": "4382116d20d1234a75c0cd12f5622c350566be156a270f87fccd9cca8b9605f1",
   "RELEASE_NOTES.md": "3e5f2829f240e42ff739baa68ccb957e52f13fcb6dc2bad07896d8d4ae9d2e88",
   "computations/main-001/manifest.json": "b0614199c0660d8fe2f51ecdc302d4ac7118df90ca09730d2c1228b887e270a1",
   "computations/main-001/stderr.txt": "17a29c0bbe881299e4a7e454d9d74b5c8f796db30e08e339352802f9a8fc5c02",
