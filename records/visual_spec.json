@@ -1,0 +1,14 @@
+{
+  "source": "computations/main-003/*.csv; exact analytic surfaces",
+  "global_style_references": ["top_reference_set ranks 4, 11, 10"],
+  "dimensions_inches": [7.0, 4.1],
+  "font_points": 9,
+  "palette": {"focal":"#1F6F5F","baseline":"#6F6F6F","failure":"#B5473C"},
+  "figures": [
+    {"id":"landscape","claim":"Complex saddles explain merger events","visual_form":"3D surface plus planar contours","metric":"exact |w^2-1|","unit":"normalized modulus","direction":"not a score","uncertainty":"none: exact model sampled for display","exception":"3D displays actual two-coordinate domain geometry, as requested"},
+    {"id":"scaling","claim":"Cancellation order controls critical displacement and value-prediction errors","visual_form":"three aligned log-log line panels","metric":"absolute errors at gamma=1","unit":"normalized complex distance or modulus","direction":"smaller","focal_series":"Newton value predictor","baselines":["frozen value","critical displacement"],"uncertainty":"deterministic high-precision computations, not statistical intervals"},
+    {"id":"hierarchy","claim":"Moment bounds certify additional equal-degree external fields","visual_form":"paired categorical matrix","metric":"strict sufficient inequality satisfied","unit":"boolean","direction":"more decisive","uncertainty":"negative result means unresolved, not incorrect"},
+    {"id":"raster","claim":"Digital root connectivity fails as h/W grows","visual_form":"outcome fractions with exact denominator","metric":"fraction of deterministic factorial trials","unit":"fraction of 768 trials per spacing ratio","direction":"larger correct fraction","uncertainty":"no sampling inference, finite deterministic design"},
+    {"id":"fields","claim":"Same remote distance supports different cancellation orders","visual_form":"four root-location diagrams","metric":"external roots and cluster roots","unit":"normalized complex coordinates","direction":"not a score","uncertainty":"cluster roots approximate for visual display only"}
+  ]
+}

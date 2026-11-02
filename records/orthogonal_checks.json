@@ -1,0 +1,9 @@
+{
+  "exact_quadratic_stationary_value": "passed",
+  "degenerate_center_rejection": "passed",
+  "independent_factorized_checks": 8,
+  "reflection_label_example": "passed",
+  "fine_grid_trials_checked": 2304,
+  "tube_identity_samples": 63,
+  "non_claim": "These finite checks do not replace the universal proofs."
+}

@@ -1,0 +1,27 @@
+{
+  "landscape": {
+    "panel_box_overlaps": [],
+    "text_outside_canvas": [
+      "Im w",
+      "\u22120.5"
+    ]
+  },
+  "scaling": {
+    "panel_box_overlaps": [],
+    "text_outside_canvas": [
+      "$\\mathdefault{10^{2}}$"
+    ]
+  },
+  "hierarchy": {
+    "panel_box_overlaps": [],
+    "text_outside_canvas": []
+  },
+  "raster": {
+    "panel_box_overlaps": [],
+    "text_outside_canvas": []
+  },
+  "external_fields": {
+    "panel_box_overlaps": [],
+    "text_outside_canvas": []
+  }
+}

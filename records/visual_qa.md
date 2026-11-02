@@ -1,0 +1,9 @@
+# Figure and manuscript revision, 2 November 2026
+
+All five figures were rebuilt with reserved spaces for titles, axis labels and legends. Legends were moved outside data panels. Panel headings were shortened; multiplicity annotations moved into separate headings; the 3D labels were positioned in figure coordinates to prevent clipping. Shared labels reduce crowding. Body text has a 9.6 pt floor in the exported figures so it remains at least approximately 8 pt after manuscript reduction. All PDF/SVG/PNG exports are retained. Exports now use atomic replacement and PDF end markers are checked before installation, preventing a manuscript build from reading incomplete figure files.
+
+All five final PNGs were visually reviewed. Full-color and grayscale exports were checked; line style, marker shape and explicit Y/dash labels preserve interpretation. The full final manuscript was rendered and reviewed as a 15-page contact sheet, with individual figure and author pages also checked. The rebuilt PDF has no overfull boxes, unresolved references or malformed embedded figures. An overlong sublevel/minimax display was split over two lines without changing its mathematical content. Header height was increased to prevent header collisions.
+
+The numeric arrays and all scientific data are unchanged; the main-003 provenance manifest still validates. Automatic panel tight-box comparison found no panel overlaps. Initial-canvas warnings include generated unused tick labels and right-side labels included by the final tight export, so these are not treated as final clipping evidence; the actual exported files were inspected.
+
+Author metadata was updated to Independent Researcher, contact.vpatni@gmail.com and ORCID 0009-0005-1859-5107, verified from existing OpenOmicsBench Zenodo creator metadata. ORCID and mailto links are embedded in the PDF. This revision changes layout and author metadata only. Mathematical review status is unchanged.

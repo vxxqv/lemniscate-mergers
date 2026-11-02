@@ -1,0 +1,58 @@
+{
+  "claim_id": "LEM_FINITE_A",
+  "mathematics": {
+    "assertion_tested": "Strict ball-arithmetic Rouche inequalities for 64 critical-center cases; hierarchy brackets in 32 cases; sampled graph root connectivity in 5376 exact quadratic raster trials",
+    "coefficient_domain": "Gaussian rational polynomial inputs enclosed with Arb/acb at 384 bits; independent 95-digit mpmath references; raster trials float64",
+    "conventions": "ascending coefficients, closed sublevels, regular levels, 4- and 8-neighbor vertex graphs",
+    "inputs": [
+      "Q(w)=w^3-3w+(2+i)/5",
+      "four degree-four external fields",
+      "eight positive rational epsilon values",
+      "quadratic benchmark Q(w)=w^2-1"
+    ],
+    "bounds": {
+      "critical_cases": 64,
+      "hierarchy_cases": 32,
+      "raster_trials": 5376,
+      "reference_digits": 95,
+      "ball_precision_bits": 384
+    },
+    "non_claims": [
+      "Does not prove global originality",
+      "Does not compare against Farouki-Han or Plantinga-Vegter implementations",
+      "Raster outcomes do not certify exact topology",
+      "A failed sufficient inequality is unresolved, not a false theorem"
+    ]
+  },
+  "execution_artifacts": [
+    "src/analytic.py",
+    "src/experiments.py"
+  ],
+  "software": [
+    {
+      "name": "python",
+      "version": "3.12.14"
+    },
+    {
+      "name": "numpy",
+      "version": "2.3.5"
+    },
+    {
+      "name": "scipy",
+      "version": "1.17.0"
+    },
+    {
+      "name": "mpmath",
+      "version": "1.4.1"
+    },
+    {
+      "name": "python-flint",
+      "version": "0.9.0"
+    }
+  ],
+  "randomness": {
+    "used": false,
+    "generator": "deterministic factorial design",
+    "seed": null
+  }
+}

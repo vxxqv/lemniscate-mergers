@@ -1,0 +1,24 @@
+{
+  "checkpoint": "LEM-20261102-B",
+  "base_contract_sha256": "1a068b7290b27acf99e2d20eb639aba105e4b451e40f67ebe61f0b711800bd66",
+  "review_provenance": "same-assistant adversarial self-review",
+  "files": {
+    "manuscript/main.tex": "1b04e066db6550788d61f59e9cd01c075a0e710b2b06c7a723c4ef307e6720fa",
+    "manuscript/references.bib": "f581ce5fe71a3a4917dbd0d7409579b80b6ea43df4755815c55574c00e73a28e",
+    "manuscript/main.pdf": "f22cc32944154f9afde358ffebfa38eaa573a3062e4487e2bc1b952af2050932",
+    "records/target_contract.md": "1a068b7290b27acf99e2d20eb639aba105e4b451e40f67ebe61f0b711800bd66",
+    "records/proof_audit.md": "055f7aae98fea4bdec5e1742054c066faa6a429531d3253c41d174facc2c1995",
+    "src/analytic.py": "f63a1d1e6ce8c7f3b4006f1b2ab3dc185ae516c6046d769ab846bbb9f6732fc1",
+    "src/experiments.py": "463133a3148dba86a4646fc5b73d263154503085eb55947d4347d958f95865be",
+    "src/figures.py": "bcd8022cd24ae12e3bf97cfe71152ee62bc8ee1a38cfa2e88cc621a2c6600bab",
+    "tests/check_mathematics.py": "70e51258120efaa700fe007c645775a2966ebc5d6ff7f41097ea23f70b3d4767",
+    "computations/main-003/hierarchy_bounds.csv": "8475ba27efd8860b5828792a1ca574c84b19d31430a1d0fd39e9f97907250515",
+    "computations/main-003/manifest.json": "072ab3e73a052888b00428503ad4254026c4e24dbb4be59365cc83d2f9baea0c",
+    "computations/main-003/ball_certificates.json": "fdaf897db3cead59f71618d5ee740233d1e033696a320cb4afd670dfc8ff56f1",
+    "computations/main-003/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "computations/main-003/summary.json": "a14ae2d39afb7bb5772b294cbd030f1a6b226f89d496ccccb4f11e4ef728481e",
+    "computations/main-003/stdout.txt": "dfd28ae0f3cef0840d0373d00c24e3782241787d86473cc4b469a788e12da45d",
+    "computations/main-003/critical_values.csv": "19c1695d6c438db270f7615e07d5be5e058a1bfb33e0137dc2eccea9bb48d208",
+    "computations/main-003/raster_trials.csv": "d968e6370a1d7d80bc16d5284c1318d24d782a257328f26b8e876fec77b007b0"
+  }
+}
