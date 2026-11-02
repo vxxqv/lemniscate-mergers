@@ -1,0 +1,22 @@
+{
+  "title": "Quantitative Lemniscate Mergers near Clustered Zeros: Code and Data",
+  "upload_type": "software",
+  "version": "0.1.0",
+  "publication_date": "2026-11-02",
+  "creators": [
+    {
+      "name": "Vivaan Patni",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0005-1859-5107"
+    }
+  ],
+  "description": "Reproducible research software and data for inverse-moment bounds, critical-value enclosures, hierarchy certificates, and exact-quadratic sampled root-connectivity experiments. Includes exact inputs, 384-bit ball-arithmetic certificates, 95-digit reference computations, 5376 deterministic raster trials, editable figure scripts, and review records. The accompanying mathematical manuscript remains a working draft; independent mathematical review and comprehensive novelty verification are pending. No superiority over established adaptive contouring algorithms is claimed.",
+  "keywords": [
+    "complex analysis",
+    "polynomial lemniscates",
+    "critical values",
+    "inverse moments",
+    "validated numerics",
+    "reproducibility"
+  ]
+}

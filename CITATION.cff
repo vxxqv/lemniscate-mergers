@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the exact archived version used in your analysis."
+type: software
+title: "Quantitative Lemniscate Mergers near Clustered Zeros: Code and Data"
+version: 0.1.0
+date-released: 2026-11-02
+authors:
+  - family-names: Patni
+    given-names: Vivaan
+    affiliation: Independent Researcher
+    orcid: "https://orcid.org/0009-0005-1859-5107"
