@@ -1,0 +1,16 @@
+{
+  "critical_cases": 64,
+  "certified_critical_cases": 63,
+  "reference_inside_all_valid_certificates": true,
+  "hierarchy_cases": 32,
+  "distance_hierarchies": 12,
+  "moment_hierarchies": 26,
+  "raster_trials": 5376,
+  "raster_outcomes": {
+    "correct": 4069,
+    "wrong": 619,
+    "roots_unresolved": 688
+  },
+  "elapsed_seconds": 0.874120941000001,
+  "python": "3.12.14"
+}
