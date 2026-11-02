@@ -1,0 +1,151 @@
+{
+  "schema_version": 2,
+  "claim_id": "LEM_FINITE_A",
+  "repository": {
+    "commit": "unavailable",
+    "dirty": true
+  },
+  "command": [
+    "python3",
+    "src/experiments.py",
+    "--out",
+    "computations/main-001"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "numpy",
+        "version": "2.3.5"
+      },
+      {
+        "name": "scipy",
+        "version": "1.17.0"
+      },
+      {
+        "name": "mpmath",
+        "version": "1.4.1"
+      },
+      {
+        "name": "python-flint",
+        "version": "0.9.0"
+      }
+    ],
+    "hardware": "Linux-6.18.57-x86_64-with-glibc2.39"
+  },
+  "mathematics": {
+    "assertion_tested": "Strict ball-arithmetic Rouche inequalities for 64 critical-center cases; hierarchy brackets in 32 cases; sampled graph root connectivity in 5376 exact quadratic raster trials",
+    "coefficient_domain": "Gaussian rational polynomial inputs enclosed with Arb/acb at 384 bits; independent 95-digit mpmath references; raster trials float64",
+    "conventions": "ascending coefficients, closed sublevels, regular levels, 4- and 8-neighbor vertex graphs",
+    "inputs": [
+      "Q(w)=w^3-3w+(2+i)/5",
+      "four degree-four external fields",
+      "eight positive rational epsilon values",
+      "quadratic benchmark Q(w)=w^2-1"
+    ],
+    "bounds": {
+      "critical_cases": 64,
+      "hierarchy_cases": 32,
+      "raster_trials": 5376,
+      "reference_digits": 95,
+      "ball_precision_bits": 384
+    },
+    "non_claims": [
+      "Does not prove global originality",
+      "Does not compare against Farouki-Han or Plantinga-Vegter implementations",
+      "Raster outcomes do not certify exact topology",
+      "A failed sufficient inequality is unresolved, not a false theorem"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "deterministic factorial design",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-11-02T11:28:27.019894+00:00",
+    "runtime_seconds": 0.771975,
+    "exit_status": 1,
+    "status": "failed",
+    "timeout_seconds": 60.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": 1,
+      "max_threads": 1
+    },
+    "missing_results": [
+      "computations/main-001/summary.json",
+      "computations/main-001/critical_values.csv",
+      "computations/main-001/ball_certificates.json",
+      "computations/main-001/hierarchy_bounds.csv",
+      "computations/main-001/raster_trials.csv"
+    ],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "src/analytic.py",
+    "src/experiments.py"
+  ],
+  "input_artifacts": [
+    {
+      "path": "src/analytic.py",
+      "sha256": "2f005ab61440dc1a520729705a1577cd0246c64935309c4c2f87736d138e2313",
+      "sha256_after": "2f005ab61440dc1a520729705a1577cd0246c64935309c4c2f87736d138e2313"
+    },
+    {
+      "path": "src/experiments.py",
+      "sha256": "553edeaeb400241f023e778089a0d6f05baac12dc2a7fa7206e8d6813c7f73ff",
+      "sha256_after": "553edeaeb400241f023e778089a0d6f05baac12dc2a7fa7206e8d6813c7f73ff"
+    }
+  ],
+  "output_directory": "computations/main-001",
+  "declared_results": [
+    "computations/main-001/summary.json",
+    "computations/main-001/critical_values.csv",
+    "computations/main-001/ball_certificates.json",
+    "computations/main-001/hierarchy_bounds.csv",
+    "computations/main-001/raster_trials.csv"
+  ],
+  "outputs": [
+    {
+      "path": "computations/main-001/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "computations/main-001/stderr.txt",
+      "sha256": "17a29c0bbe881299e4a7e454d9d74b5c8f796db30e08e339352802f9a8fc5c02",
+      "kind": "log"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": false
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": false
+    }
+  ],
+  "result": "Run failed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions.",
+    "The thread cap uses conventional environment variables; a child program may ignore them.",
+    "Declared results were not produced: computations/main-001/summary.json, computations/main-001/critical_values.csv, computations/main-001/ball_certificates.json, computations/main-001/hierarchy_bounds.csv, computations/main-001/raster_trials.csv"
+  ]
+}

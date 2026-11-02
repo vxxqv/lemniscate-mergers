@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/d6002e065f1f/lemniscate_research/src/experiments.py", line 156, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/d6002e065f1f/lemniscate_research/src/experiments.py", line 146, in main
+    cr=asymptotics(out); hb=partition_bounds(out); rr=raster(out)
+       ^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/d6002e065f1f/lemniscate_research/src/experiments.py", line 36, in asymptotics
+    ma=mp_coeffs(a,mp); md=mp_coeffs(derivative(a),mp)
+       ^^^^^^^^^^^^^^^
+  File "/workspace/scratch/d6002e065f1f/lemniscate_research/src/analytic.py", line 91, in mp_coeffs
+    return [mp.mpc(str(x.real.mid()), str(x.imag.mid())) for x in a]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.12/site-packages/mpmath/ctx_mp_python.py", line 520, in __new__
+    real = ctx.convert(real)
+           ^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.12/site-packages/mpmath/ctx_mp_python.py", line 866, in convert
+    return ctx._convert_fallback(x, strings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.12/site-packages/mpmath/ctx_mp.py", line 605, in _convert_fallback
+    raise TypeError("cannot create mpf from " + repr(x))
+TypeError: cannot create mpf from '[0.4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 +/- 1.02e-116]'
